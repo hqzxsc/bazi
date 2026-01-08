@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Author: 钉钉或微信pythontesting 钉钉群21734177 技术支持qq群：630011153 144081101
+# Author: 钉钉或微信pythontesting 钉钉群21734177 
 # CreateDate: 2019-2-21
 
 import argparse
@@ -34,7 +34,7 @@ else:
     print("以下为相合的生肖：") 
     print("="*80) 
     output("与你三合的生肖：", '合')  
-    output("与你六合的生肖：", '六合')      
+    output("与你六合的生肖：", '六')      
     output("与你三会的生肖：", '会')
     print()
     print("="*80) 

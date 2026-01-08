@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Author: 钉钉或微信pythontesting 钉钉群21734177 技术支持qq群：630011153 144081101
-# 鸣谢 https://github.com/yuangu/sxtwl_cpp/tree/master/python
+# Author: 钉钉或微信pythontesting 钉钉群21734177
 # CreateDate: 2019-2-21
 
-import  sxtwl
 import argparse
 import collections
 import pprint
@@ -29,6 +27,15 @@ def yinyang(item):
         return '＋' if Gan.index(item)%2 == 0 else '－'
     else:
         return '＋' if Zhi.index(item)%2 == 0 else '－'
+    
+def yinyangs(zhis):
+    result = []
+    for item in zhis:
+        result.append(yinyang(item))
+    if set(result) == set('＋'):
+        print("四柱全阳")
+    if set(result) == set('－'):
+        print("四柱全阴")
     
     
     
